@@ -24,7 +24,7 @@ namespace ConversorDistancias.Testes.Utils
                 case Browser.Chrome:
                     ChromeOptions options = new ChromeOptions();
                     //if (headless)
-                       //options.AddArgument("--headless");
+                       //options.AddArgument("--headless"); 
 
                     webDriver = new ChromeDriver(pathDriver, options);
                     

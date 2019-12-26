@@ -49,7 +49,7 @@ namespace ConversorDistancias.Testes.PageObjects
 
         public void Proccess()
         {
-            Thread.Sleep(5000);
+            Thread.Sleep(3000);
             _driver.Submit(By.ClassName("nav-search-input"));
 
             WebDriverWait wait = new WebDriverWait(
@@ -59,6 +59,7 @@ namespace ConversorDistancias.Testes.PageObjects
 
         public string ReturnValue()
         {
+            Thread.Sleep(3000);
             return _driver.GetText(By.ClassName("breadcrumb__title"));
         }
 
