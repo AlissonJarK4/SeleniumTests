@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumTest", "ConversorDistancias.Testes\SeleniumTest.csproj", "{515419E0-E591-48DD-89A7-3D5021AF9876}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{515419E0-E591-48DD-89A7-3D5021AF9876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{515419E0-E591-48DD-89A7-3D5021AF9876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{515419E0-E591-48DD-89A7-3D5021AF9876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{515419E0-E591-48DD-89A7-3D5021AF9876}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1673ED64-AC34-4364-87DE-47525D3FF678}
+	EndGlobalSection
+EndGlobal
